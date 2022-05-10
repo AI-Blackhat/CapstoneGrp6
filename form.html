@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="https://kit.fontawesome.com/d58efc4567.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="formStyle.css">
+    <title>Form</title>
+</head>
+<body>
+            <div class="mark">
+                <h1><i class="fa-solid fa-house-tsunami"></i> <span>Flood Talk</span></h1>
+                <div class="quick-btn">
+                    <button class="btn">Subscribe</button>
+                    <a href="./form.html"><button class="btn">Get Help Now</button></a>
+                    <button class="btn">Donate</button>
+                </div>
+            </div>
+
+        <div class="breadcrumbs">
+            <h1><i class="fa-solid fa-bullhorn"></i> <span>Tell Your Story</span></h1>
+            <ul class="bread">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./takeAction.html">Take Action</a></li>
+                <li><a href="#">Tell your story</a></li>
+            </ul>
+        </div>
+        
+    
+    <div class="container">
+        <div class="container-content">
+            <h1>Tell your story</h1>
+            <h3>You can help bring awareness to flooding problems in your community.</h3>
+            <p>At Flood Talk we believe that floods are a big problem that needs to be listen to. Floods are a force of nature that can cause hazardous circumstances that could put human life at risk and generate material loses. When you share a testimony you help people understand the severity, the suffering, the struggle. We want to listen to you and help turn heads in this direction to promote <b>solutions</b>. </p>
+            <p>If you know somebody has been a victim to flood, please encourage them to share their story in the form below so the areas of high risk can be identified and address.</p>
+           
+                
+        </div>
+        <form >
+            <h1>Tell Your Story</h1>
+           
+            
+            <label for="first" class="label">First Name<input type="text" id="first" required></label>
+            <label for="last" class="label">Last Name<input type="text" id="last"></label>
+            
+            
+            <label for="phone" class="label">
+                Phone<input type="phone" id="phone">
+            </label>
+            <label for="email" class="label" >
+                Email<input type="email" id="email" required>
+            </label>
+            <label for="Zip-Code" class="label">
+                Zip Code<input type="zip" id="zip" required></label>
+            </label>
+            <label for="Street" class="label">
+                Street Name<input type="street" id="street" ></label>
+            </label>
+            <label for="concern" class="label">
+                Tell your story...<textarea name="concern" id="concern" min-cols="30" min-rows="30" placeholder="Please describe the flood events, you can include images and videos too..."></textarea>
+            </label>
+            <label for="checkbox" class="radioLabel">
+                Would you like to add pictures?
+                <input type="radio" name="user-img" id="yes"> 
+                <label for="radio">Yes</label>
+                <input type="radio" name="user-img" id="no"> 
+                <label for="radio">No</label>
+            </label>
+            <label for="file" class="file">
+                Select a file: 
+                <input type="file" name="file" id="file">
+            </label>
+
+            
+            <p>Please confirm that you are giving Flood Talk permission to reprint your story
+                
+                <label for="yes"><input type="radio" name="reprint" id="yes" required checked>Yes</label>
+                <label for="no"><input type="radio" name="reprint" id="no" required>No</label>
+            </p>
+            
+            <p>By submitting this form, you accept <a href="./LegalSpeak/privacy.html" class="policy" target="_blanc">Flood Talk Privacy Policy.</a></p>
+         
+
+            <input type="submit" name="submit" id="submit" value="Submit">
+        </form>
+
+
+    </div>
+
+    <!-- Footer  -->
+    <footer>
+        <div class="navlinks">
+            <ul>
+                <li><a href="./media.html">Flood Media</a></li>
+                <li><a href="./Contacts/rcont.html">Resources</a></li>
+                <li><a href="./form.html">Take Action</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="./index.html">Home</a></li>
+            </ul>
+        </div>
+        <div class="donate">
+            If you would like to help people affected by floods you can send a tax-deductible gift here.
+            <br>
+            <button class="btn">Donate</button>
+
+        </div>
+        <div class="logo-footer">
+            <h1><i class="fa-solid fa-house-tsunami"></i> <span>Flood</span></h1>
+            <h1 class="logo-talk">Talk</h1>
+        </div>
+        <div class="address">
+            <p>2355 Nashville Road
+                <br>
+                Suite C 101
+                <br>
+                Bowling Green, Kentucky 42101
+                <br>
+                contact@southcentralworkforce.com
+                <br>
+                270-745-3905
+                <br>
+                <br>
+                Monday - Friday
+                <br>
+                8 a.m. – 4:30 p.m.
+            </p>
+            <br>
+            <p><a href="./LegalSpeak/privacy.html">Private Policy</a></p>
+            <p><a href="#">Contact Us</a></p>
+        </div>
+    </footer>
+    <div class="bottom-page">
+        <i class="fa-solid fa-copyright"></i>
+        Copyright 2022 Flood Talk. All rights reserved. Non profit website created by Dulce White, Todd Mau, and
+        Shawntay Smith.
+    </div>
+
+<script src="formApp.js"></script>
+</body>
+</html>
